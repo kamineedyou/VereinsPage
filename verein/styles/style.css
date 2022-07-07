@@ -1,0 +1,65 @@
+.grid-wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 6rem;
+    align-items: center;
+    max-width: 1000px;
+    }
+  
+
+    .rocket{
+
+        position: absolute;
+        width: 349px;
+        height: 349px;
+        left: 1266px;
+        top: 332px;
+    }
+
+
+    .fontHeaderFirstGen{
+        position: absolute;
+width: 735px;
+height: 234px;
+left: 149px;
+top: 332px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 117px;
+
+color: #FFFFFF;
+    }
+
+    .headline{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 152.69%;
+
+/* identical to box height, or 98px */
+font-feature-settings: 'pnum' on, 'onum' on;
+
+color: #000000;
+    }
+
+    .fontInBody{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 152.69%;
+
+/* or 34px */
+font-feature-settings: 'pnum' on, 'onum' on, 'ss04' on;
+
+color: #000000;
+    }
+
+    
